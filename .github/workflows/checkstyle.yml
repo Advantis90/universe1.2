@@ -1,7 +1,7 @@
 name: checkstyle
 on: 
   push:
-    branches: [ sumdu.edu.ua ]
+    branches: [ master, sumdu.edu.ua ]
   
 jobs:
   checkstyle:
