@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //In this test, we're checking that both constructors of the HttpException class are working as intended.
 // We're using the assertEquals() method from JUnit to verify that the actual values match the expected values.
 // In the first test, we're checking that the constructor with a message parameter correctly sets the HTTP status code and the message.
-// In the second test, we're checking that the constructor without a message parameter correctly sets the HTTP status code and uses the default message for that status code.
+// In the second test,  we're checking that the constructor without a message parameter correctly sets the HTTP status code and uses the default message for that status code.
 public class UserHttpExceptionTest {
 
     @Test
